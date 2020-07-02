@@ -1,1 +1,1 @@
-# Chad-Politica-
+# Chad-Political-Compass
