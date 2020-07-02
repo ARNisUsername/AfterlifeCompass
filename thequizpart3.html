@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Political Compass Project</title>
+        <link rel='shortcut icon' type='image/x-icon' href='icon.ico' />
+    </head>
+    
+  
+    
+    <style>
+        
+        @font-face
+        {
+                font-family: "Lora";
+                src: url('Lora-Regular.ttf'),
+                url('Lora-Regular.ttf'); /* IE */
+        }
+        @font-face
+        {
+            font-family: "Lato";
+            src: url('Lato-Regular.ttf'),
+            url('Lato-Regular.ttf'); /* IE */
+        }
+        @font-face
+        {
+            font-family: "Opensans";
+            src: url('OpenSans-Regular.ttf'),
+            url('OpenSans-Regular.ttf'); /* IE */
+        }
+        @font-face
+        {
+            font-family: "Raleway";
+            src: url('Raleway-Regular.ttf'),
+            url('Raleway-Regular.ttf'); /* IE */
+        }
+        @font-face
+        {
+            font-family: "Slabo";
+            src: url('Slabo27px-Regular.ttf'),
+            url('Slabo27px-Regular.ttf'); /* IE */
+        }
+        
+       
+        body {
+            background-image: url("stardust.png");
+        }
+        #main {
+            background-image: url("greyzz.png");
+            margin: auto;
+            height: 95%;
+            width: 130vh;
+            border-radius: 7px;
+            box-shadow: 8px 10px 4px #262626;
+        }
+        
+        h4 {
+            font-size: 15px;
+            font-family: Opensans;
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        
+        .questions {
+            margin-left: 40px;
+            font-family: "Raleway";
+            padding-bottom: 15px;
+        }
+        
+        #submit{
+            margin-top: 20px;
+            margin-left: 50px;
+            font-size: 20px;
+            font-family: "Lato";
+        }
+        
+        
+        
+    </style>
+    
+    <body>
+        <div id="main">
+            <!-- You already knows what goes here. !-->
+           <h4> In the final part we test for your ways of embracing your political beliefs, placing you on a scale from Chad to Dimwit(based off of u/Aofen).</h4>
+            
+        <div class="questions" id="que1">
+            <p>The ultimate goal of myself is to prove other people that they are wrong about their different political beliefs.</p>
+            <select id="selector1">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+            
+        </div>
+        <div class="questions" id="que2">
+            <p>If a country representing my ideology falls, it is the fault of other countries, not the fault of the ideology.</p>
+            
+            <select id="selector2">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que3">
+            <p>The political beliefs of other indivduals do not define how good of a person they are.</p>
+            
+            <select id="selector3">
+                <option value=-16.187>Strongly agree</option>
+                <option value=-8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=8.093>Kinda disagree</option>
+                <option value=16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que4">
+            <p>I as a human am solely defined by my political beliefs.  </p>
+            
+            <select id="selector4">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que5">
+            <p>My political beliefs are strongly shaped by whats trending on social media(e.g. I cared more about black lives when BLM was trending). </p>
+            
+            <select id="selector5">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que6">
+            <p>I can tell when a country is pretending to represent me when they actually aren't(e.g. I as a communist can tell that the CCP isnt actually communist). </p>
+            
+            <select id="selector6">
+                <option value=-16.187>Strongly agree</option>
+                <option value=-8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=8.093>Kinda disagree</option>
+                <option value=16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que7">
+            <p>People sharing my political beliefs are allowed to be hypocritical because people that share the opposite political beliefs are also hypocritical.</p>
+            
+            <select id="selector7">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que8">
+            <p>Cancel culture is a good thing.</p>
+            
+            <select id="selector8">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que9">
+            <p>No gender is inheritly better than another.</p>
+            
+            <select id="selector9">
+                <option value=-16.187>Strongly agree</option>
+                <option value=-8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=8.093>Kinda disagree</option>
+                <option value=16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que10">
+            <p>Regardless of if I am proud of my country or not, I still want to make it better.</p>
+            
+            <select id="selector10">
+                <option value=-16.187>Strongly agree</option>
+                <option value=-8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=8.093>Kinda disagree</option>
+                <option value=16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que11">
+            <p>I care about the freedom and happiness of others, not just people I know.</p>
+            
+            <select id="selector11">
+                <option value=-16.187>Strongly agree</option>
+                <option value=-8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=8.093>Kinda disagree</option>
+                <option value=16.187>Strongly disagree</option>
+           
+            </select>
+        </div>    
+        <div class="questions" id="que12">
+            <p>Political rants on social media platforms such as Twitter are helpful.</p>
+            
+            <select id="selector12">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+        </div>    
+        <div class="questions" id="que13">
+            <p>If someone else gives me proof that some of my political beliefs are wrong, I will thank them and change my political beliefs rather than ignore them.</p>
+            
+            <select id="selector13">
+                <option value=-16.187>Strongly agree</option>
+                <option value=-8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=8.093>Kinda disagree</option>
+                <option value=16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que14">
+            <p>I support news organizations that are heavily biased as long as they are biased towards my political side</p>
+            
+            <select id="selector14">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>
+        </div>
+        <div class="questions" id="que15">
+            <p>Democrats and Republicans are practically opposites.</p>
+            
+            <select id="selector15">
+                <option value=16.187>Strongly agree</option>
+                <option value=8.093>Kinda agree</option>
+                <option selected="selected" value="0">No opinion either way</option>
+                <option value=-8.093>Kinda disagree</option>
+                <option value=-16.187>Strongly disagree</option>
+            
+            </select>   
+        </div>
+            
+            <div class='questions' id="que16">
+                <p>Rather than banning extremists that call for violence on forums and websites, we should reeducate them about their beliefs.</p>
+                
+                <select id='selector16'>
+                    <option value=-16.187>Strongly agree</option>
+                    <option value=-8.093>Kinda agree</option>
+                    <option selected="selected" value="0">No opinion either way</option>
+                    <option value=8.093>Kinda disagree</option>
+                    <option value=16.187>Strongly disagree</option>
+                </select>
+            </div>
+            
+            
+            <a href="results.html"><button id="submit">Submit</button></a>
+            
+        
+        </div>
+    </body>
+    
+      <script>
+        window.onload = start;
+        document.getElementById("submit").onclick = click;
+        
+        
+        function start()
+        {
+            //This is where you call functions and put general document editing code.
+            //var select = document.getElementById("selector1");
+            //alert ( select.options[select.selectedIndex].value)
+            
+            createPara("", "p1")
+        }
+        
+         function createPara(text, id)
+                //Very imporant function to reduce time wasted making paragraphs manually!
+            {
+                var para = document.createElement("p");
+                var t = document.createTextNode(text);
+                para.appendChild(t);
+                document.getElementById("main").appendChild(para);
+                para.id = id;
+            }
+          
+        function click()
+          {
+            var scoreGood = calculate();
+            
+            sessionStorage.setItem('scoreGood', scoreGood);
+          }
+        function calculate()
+        {
+            var select = document.getElementById("selector1");
+            var select2 = document.getElementById("selector2");
+            var select3 = document.getElementById("selector3");
+            var select4 = document.getElementById("selector4");
+            var select5 = document.getElementById("selector5");
+            var select6 = document.getElementById("selector6");
+            var select7 = document.getElementById("selector7");
+            var select8 = document.getElementById("selector8");
+            var select9 = document.getElementById("selector9");
+            var select10 = document.getElementById("selector10");
+            var select11 = document.getElementById("selector11");
+            var select12 = document.getElementById("selector12");
+            var select13 = document.getElementById("selector13");
+            var select14 = document.getElementById("selector14");
+            var select15 = document.getElementById("selector15");
+            var select16 = document.getElementById("selector16");
+            
+           return parseFloat(select.options[select.selectedIndex].value)+ parseFloat(select2.options[select2.selectedIndex].value) + parseFloat(select3.options[select3.selectedIndex].value) + parseFloat(select4.options[select4.selectedIndex].value) + parseFloat(select5.options[select5.selectedIndex].value) + parseFloat(select6.options[select6.selectedIndex].value) + parseFloat(select7.options[select7.selectedIndex].value) + parseFloat(select8.options[select8.selectedIndex].value) + parseFloat(select9.options[select9.selectedIndex].value) + parseFloat(select10.options[select10.selectedIndex].value) + parseFloat(select11.options[select11.selectedIndex].value) + parseFloat(select12.options[select12.selectedIndex].value) + parseFloat(select13.options[select13.selectedIndex].value) + parseFloat(select14.options[select14.selectedIndex].value) + parseFloat(select15.options[select15.selectedIndex].value) + parseFloat(select16.options[select16.selectedIndex].value);
+            
+            
+        }
+          
+        
+       
+        //The rest of the functions go here
+    </script>
+    <script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(101050272); }catch(e){}</script>
+</html>
+
+<!-- I love IT! !-->
